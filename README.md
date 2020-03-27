@@ -2,10 +2,10 @@
 A UNIX shell with foreground and background command running capabilities, written in C
 
 ## Compilation
-A make file is included in the repository, to compile all necessary object files and the final executable run the following command:
+To compile the executable for this UNIX shell, download this repository and run the following command from within the project's main directory:
 
 ```
-make
+gcc -o gundelsh gundelsh.c
 ```
 
 ## Usage
